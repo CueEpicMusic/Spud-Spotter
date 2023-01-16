@@ -3,6 +3,12 @@ Spud Spotter
 
 Spud Spotter is a multi-page app that lets users create and share maps of their favourite potato themed places.
 
+## Final Product
+
+On the landing page, as an unregistered user you can view authenticated user's maps
+
+
+
 ## Getting Started
 
 1. Create the `.env` by using `.env.example` as a reference: `cp .env.example .env`
