@@ -5,9 +5,6 @@
  * See: https://expressjs.com/en/guide/using-middleware.html#middleware.router
  */
 
-// load .env data into process.env
-require("dotenv").config();
-
 const express = require("express");
 const { database } = require("pg/lib/defaults");
 const router = express.Router();
@@ -89,7 +86,7 @@ module.exports = (db) => {
           if (user) { */
     getMapByMapId(db, mapId)
       .then((data) => {
-        res.render("my-maps", { userId, userName, id: mapId, data, Google_api: process.env.Google_maps_key });
+        res.render("my-maps", { userId, userName, id: mapId, data });
       })
       .catch((err) => {
         console.log(err);
@@ -115,7 +112,7 @@ module.exports = (db) => {
       .then(() => {
         getMapByMapId(db, mapId)
           .then((mapData) => {
-            res.render("edit-maps", { userId, userName, id: mapId, mapData, Google_api: process.env.Google_maps_key });
+            res.render("edit-maps", { userId, userName, id: mapId, mapData });
           })
       })
       .catch((err) => {
