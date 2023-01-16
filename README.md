@@ -5,7 +5,9 @@ Spud Spotter is a multi-page app that lets users create and share maps of their 
 
 ## Final Product
 
-On the landing page, as an unregistered user you can view authenticated user's maps
+On the landing page, as an unregistered user you can view authenticated user's maps.
+
+As a registered user you can create, edit and delete your maps.
 
 
 
@@ -16,6 +18,7 @@ On the landing page, as an unregistered user you can view authenticated user's m
   - username: `labber` 
   - password: `labber` 
   - database: `midterm`
+  - Google_maps_key: YOUR_API_KEY
 3. Install dependencies: `npm i`
 4. Fix to binaries for sass: `npm rebuild node-sass`
 5. Reset database: `npm run db:reset`
