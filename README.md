@@ -7,6 +7,10 @@ Spud Spotter is a multi-page app that lets users create and share maps of their 
 
 On the landing page, as an unregistered user you can view authenticated user's maps.
 
+
+https://user-images.githubusercontent.com/92469359/213012218-f2b66907-88ed-4e4d-8ad7-64e1bb71ba69.mp4
+
+
 As a registered user you can create, edit and delete your maps, clicking right on the map drops a potato where you can input information about the specific place.
 
 Registered users can also favourite other people's maps.
